@@ -1,11 +1,42 @@
+# Ahmed Adel Portfolio
 
-  # Create Personal Portfolio Website
+A modern, responsive personal portfolio website built with React, TypeScript, Tailwind CSS, and Framer Motion.
 
-  This is a code bundle for Create Personal Portfolio Website. The original project is available at https://www.figma.com/design/C0ppSV0Dbk7MBU1ijTgtXY/Create-Personal-Portfolio-Website.
+## 🚀 Features
 
-  ## Running the code
+- Modern and clean UI
+- Fully responsive design
+- Dark / light mode toggle
+- Smooth animations
+- Projects showcase
+- Skills section
+- About section
+- Contact form
+- Mobile-friendly navigation
+- SEO-friendly structure
 
-  Run `npm i` to install the dependencies.
+## 🛠️ Tech Stack
 
-  Run `npm run dev` to start the development server.
-  
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Vite
+- Git & GitHub
+
+## 📂 Sections
+
+- Hero
+- About
+- Skills
+- Projects
+- Experience / Education
+- Contact
+- Footer
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/portfolio.git

@@ -71,7 +71,6 @@ export default function Skills() {
                 <div
                   className={`absolute inset-0  opacity-0 group-hover:opacity-10 transition-opacity duration-300`}
                 />
-
                 <div className="relative z-10 text-center">
                   <div
                     className={`w-16 h-16 mx-auto mb-3 rounded-xl  flex items-center justify-center shadow-lg`}
@@ -82,7 +81,6 @@ export default function Skills() {
                       className="w-10 h-10 object-contain"
                     />
                   </div>
-
                   <h3 className="font-semibold text-gray-900 dark:text-white">
                     {skill.name}
                   </h3>
