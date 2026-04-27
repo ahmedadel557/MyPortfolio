@@ -16,19 +16,18 @@ export default function Skills() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const skills = [
-    { name: "HTML", color: "from-orange-400 to-orange-600", icon: html },
-    { name: "CSS", color: "from-blue-400 to-blue-600", icon: css },
-    { name: "JavaScript", color: "from-yellow-400 to-yellow-600", icon: js },
-    { name: "React", color: "from-cyan-400 to-cyan-600", icon: react },
-    { name: "Next.js", color: "from-gray-700 to-gray-900", icon: next },
+    { name: "HTML", icon: html },
+    { name: "CSS", icon: css },
+    { name: "JavaScript", icon: js },
+    { name: "React", icon: react },
+    { name: "Next.js", icon: next },
     {
       name: "Tailwind CSS",
-      color: "from-teal-400 to-teal-600",
       icon: tailwind,
     },
-    { name: "Git", color: "from-red-400 to-red-600", icon: git },
-    { name: "GitHub", color: "from-purple-400 to-purple-600", icon: github },
-    { name: "REST APIs", color: "from-green-400 to-green-600", icon: api },
+    { name: "Git", icon: git },
+    { name: "GitHub", icon: github },
+    { name: "REST APIs", icon: api },
   ];
 
   return (
