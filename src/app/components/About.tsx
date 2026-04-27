@@ -56,6 +56,7 @@ export default function About() {
                     className="h-full hover:scale-105 transition  duration-1000"
                     src="/src/Assets/images/linkidin.jpeg"
                     alt=""
+                  
                   />
                 </div>
               </div>

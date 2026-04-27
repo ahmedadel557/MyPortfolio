@@ -14,7 +14,7 @@ export default function Skills() {
   { name: 'Next.js',icon: '/src/Assets/icons/nextdotjs-512px.png' },
   { name: 'Tailwind CSS',icon: '/src/Assets/icons/tailwind-css-512px.png' },
   { name: 'Git', icon: '/src/Assets/icons/git-512px.png' },
-  { name: 'GitHub',icon: '/src/Assets/icons/github-mono-512px.png' },
+  { name: 'GitHub',icon: 'https://thesvg.org/icons/github/mono.svg' },
   { name: 'REST APIs',icon: '/src/Assets/icons/k8s-api-server-512px.png' },
 ];
 
