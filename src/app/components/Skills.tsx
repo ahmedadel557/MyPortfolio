@@ -7,15 +7,15 @@ export default function Skills() {
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
   const skills = [
-  { name: 'HTML', icon: '/src/Assets/icons/html5-512px.png' },
-  { name: 'CSS',  icon: '/src/Assets/icons/css-512px.png' },
-  { name: 'JavaScript', icon: '/src/Assets/icons/javascript-512px.png' },
-  { name: 'React', icon: '/src/Assets/icons/react-512px.png' },
-  { name: 'Next.js',icon: '/src/Assets/icons/nextdotjs-512px.png' },
-  { name: 'Tailwind CSS',icon: '/src/Assets/icons/tailwind-css-512px.png' },
-  { name: 'Git', icon: '/src/Assets/icons/git-512px.png' },
+  { name: 'HTML', icon: 'https://thesvg.org/icons/html5/default.svg' },
+  { name: 'CSS',  icon: 'https://thesvg.org/icons/css/default.svg' },
+  { name: 'JavaScript', icon: 'https://thesvg.org/icons/javascript/default.svg' },
+  { name: 'React', icon: 'https://thesvg.org/icons/react/default.svg' },
+  { name: 'Next.js',icon: 'https://thesvg.org/icons/nextdotjs/default.svg' },
+  { name: 'Tailwind CSS',icon: 'https://thesvg.org/icons/tailwind-css/default.svg' },
+  { name: 'Git', icon: 'https://thesvg.org/icons/git/default.svg' },
   { name: 'GitHub',icon: 'https://thesvg.org/icons/github/mono.svg' },
-  { name: 'REST APIs',icon: '/src/Assets/icons/k8s-api-server-512px.png' },
+  { name: 'REST APIs',icon: 'https://thesvg.org/icons/k8s-api-server/default.svg' },
 ];
 
 return (

@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef } from "react";
 import { Code2, Palette, Zap } from "lucide-react";
+import aboutImage from "../../Assets/images/linkidin.jpeg"
 
 export default function About() {
   const ref = useRef(null);
@@ -54,7 +55,7 @@ export default function About() {
                 <div className="w-full h-full rounded-2xl bg-gray-200 dark:bg-gray-800 flex items-center justify-center overflow-hidden">
                   <img
                     className="h-full hover:scale-105 transition  duration-1000"
-                    src="/src/Assets/images/linkidin.jpeg"
+                    src={aboutImage}
                     alt=""
                   
                   />
