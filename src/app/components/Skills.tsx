@@ -5,11 +5,11 @@ import html from "../../Assets/icons/html5-512px.png";
 import css from "../../Assets/icons/css-512px.png";
 import js from "../../Assets/icons/javascript-512px.png";
 import react from "../../Assets/icons/react-512px.png";
-import next from "../../Assets/icons/nextjs-512px.png";
-import tailwind from "../../Assets/icons/tailwind-512px.png";
+import next from "../../Assets/icons/nextdotjs-512px.png";
+import tailwind from "../../Assets/icons/tailwind-css-512px.png";
 import git from "../../Assets/icons/git-512px.png";
 import github from "../../Assets/icons/github-512px.png";
-import api from "../../Assets/icons/api-512px.png";
+import api from "../../Assets/icons/k8s-api-server-512px.png";
 export default function Skills() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
