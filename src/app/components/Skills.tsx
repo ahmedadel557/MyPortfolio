@@ -15,15 +15,15 @@ export default function Skills() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const skills = [
-    { name: "HTML", icon: { html } },
-    { name: "CSS", icon: { css } },
-    { name: "JavaScript", icon: { js } },
-    { name: "React", icon: { react } },
-    { name: "Next.js", icon: { next } },
-    { name: "Tailwind CSS", icon: { tailwind } },
-    { name: "Git", icon: { git } },
-    { name: "GitHub", icon: { github } },
-    { name: "REST APIs", icon: { api } },
+    { name: "HTML", icon: html },
+    { name: "CSS", icon: css },
+    { name: "JavaScript", icon: js },
+    { name: "React", icon: react },
+    { name: "Next.js", icon: next },
+    { name: "Tailwind CSS", icon: tailwind },
+    { name: "Git", icon: git },
+    { name: "GitHub", icon: github },
+    { name: "REST APIs", icon: api },
   ];
 
   return (
