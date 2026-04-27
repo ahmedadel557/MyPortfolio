@@ -21,14 +21,22 @@ export default function Skills() {
     { name: "JavaScript", color: "from-yellow-400 to-yellow-600", icon: js },
     { name: "React", color: "from-cyan-400 to-cyan-600", icon: react },
     { name: "Next.js", color: "from-gray-700 to-gray-900", icon: next },
-    { name: "Tailwind CSS", color: "from-teal-400 to-teal-600", icon: tailwind },
+    {
+      name: "Tailwind CSS",
+      color: "from-teal-400 to-teal-600",
+      icon: tailwind,
+    },
     { name: "Git", color: "from-red-400 to-red-600", icon: git },
     { name: "GitHub", color: "from-purple-400 to-purple-600", icon: github },
     { name: "REST APIs", color: "from-green-400 to-green-600", icon: api },
   ];
 
   return (
-    <section id="skills" className="py-20 bg-gray-50 dark:bg-gray-800" ref={ref}>
+    <section
+      id="skills"
+      className="py-20 bg-gray-50 dark:bg-gray-800"
+      ref={ref}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -62,12 +70,12 @@ export default function Skills() {
             >
               <div className="relative p-6 rounded-2xl bg-white dark:bg-gray-900 shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
                 <div
-                  className={`absolute inset-0 bg-gradient-to-br ${skill.color} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}
+                  className={`absolute inset-0  opacity-0 group-hover:opacity-10 transition-opacity duration-300`}
                 />
 
                 <div className="relative z-10 text-center">
                   <div
-                    className={`w-16 h-16 mx-auto mb-3 rounded-xl bg-gradient-to-br ${skill.color} flex items-center justify-center shadow-lg`}
+                    className={`w-16 h-16 mx-auto mb-3 rounded-xl  flex items-center justify-center shadow-lg`}
                   >
                     <img
                       src={skill.icon}
