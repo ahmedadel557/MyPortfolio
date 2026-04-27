@@ -1,0 +1,35 @@
+# dependencies
+node_modules/
+
+# production build
+dist/
+build/
+
+# environment variables
+.env
+.env.*
+
+# logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editors
+.vscode/
+.idea/
+
+# pnpm
+.pnpm-store/
+
+# TypeScript (لو رجعتله)
+*.tsbuildinfo
+
+# cache
+.cache/
