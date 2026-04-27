@@ -106,7 +106,7 @@ export default function Hero() {
             className="flex items-center justify-center gap-6 mb-12"
           >
             <a
-              href="https://github.com/ahmedadel"
+              href="https://github.com/ahmedadel557"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-md hover:shadow-lg hover:scale-110 transition-all duration-300"
@@ -115,7 +115,7 @@ export default function Hero() {
               <Github className="w-6 h-6" />
             </a>
             <a
-              href="https://linkedin.com/in/ahmedadel"
+              href="https://www.linkedin.com/in/ahmeddadell5/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-md hover:shadow-lg hover:scale-110 transition-all duration-300"
@@ -124,7 +124,7 @@ export default function Hero() {
               <Linkedin className="w-6 h-6" />
             </a>
             <a
-              href="mailto:ahmed@example.com"
+              href="mailto:ahmed.ahmed55go@gmail.com"
               className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-md hover:shadow-lg hover:scale-110 transition-all duration-300"
               aria-label="Email"
             >

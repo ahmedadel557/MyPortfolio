@@ -32,19 +32,19 @@ export default function Contact() {
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-      value: 'ahmed@example.com',
-      link: 'mailto:ahmed@example.com',
+      value: 'ahmed.agmed55go@gmail.com',
+      link: 'mailto:ahmed.agmed55go@gmail.com',
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      value: '+02 (010) 6315-7104',
+      link: 'tel:+0201063157104',
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Location',
-      value: 'Your City, Country',
+      value: 'Cairo, Egypt',
       link: null,
     },
   ];
